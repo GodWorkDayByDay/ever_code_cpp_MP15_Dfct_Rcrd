@@ -1,4 +1,5 @@
 README.MD
+cpp基于MFC界面ADO连接SQL SERVER的MIS程序
 ![image](/RunSee.jpg)
 USE [master]
 GO
