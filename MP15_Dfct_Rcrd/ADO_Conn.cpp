@@ -5,7 +5,7 @@
 ADOConn::ADOConn(void)
 {
 	//_bstr_t strConnect = "Provider=SQLOLEDB; Server=CZ;Database=HrSys; uid=sa; pwd=sa;";
-	strConnect = "Provider=SQLOLEDB; Server=10.6.1.113;Database=MP15_Deffect_Record; uid=sa; pwd=Aa123456;";
+	strConnect = "Provider=SQLOLEDB; Server=10.6.1.113;Database=MP15_Deffect_Record; uid=uid; pwd=pwd;";
 }
 
 
