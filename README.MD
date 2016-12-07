@@ -3,35 +3,4 @@ Built on VS2010
 cpp基于MFC界面ADO连接SQL SERVER的MIS程序
 可編輯,行列自繪LIST控件
 ![image](/RunSee.jpg)
-USE [MP15_Deffect_Record]
-GO
-
-/****** Object:  Table [dbo].[MP_Main_Tab]    Script Date: 12/06/2016 16:54:27 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-CREATE TABLE [dbo].[MP_Main_Tab](
-	[MP_Mn_Box_Numb] [nvarchar](50) NOT NULL,
-	[MP_Mn_SSN_Numb] [nvarchar](50) NULL,
-	[MP_Mn_Ipt_Time] [datetime] NOT NULL,
-	[MP_Mn_Ps_Time] [datetime] NULL,
-	[MP_Mn_Line] [nvarchar](50) NULL,
-	[MP_Mn_Dfct_Item_1] [nvarchar](50) NULL,
-	[MP_Mn_Dfct_item_2] [nvarchar](50) NULL,
-	[MP_Mn_Psser_Wrk_Numb] [nvarchar](50) NOT NULL,
-	[MP_Mn_Psser_Wrk_Name] [nvarchar](50) NOT NULL,
-	[MP_Mn_Extr] [nvarchar](50) NULL,
-	[MP_Mn_Reserve_1] [nvarchar](50) NULL,
-	[MP_Mn_Reserve_2] [nvarchar](50) NULL,
-	[MP_Mn_Reserve_3] [nvarchar](50) NULL,
-	[MP_Mn_ID] [int] IDENTITY(1,1) NOT NULL,
- CONSTRAINT [PK__MP_Main___8F46DCB908EA5793] PRIMARY KEY CLUSTERED 
-(
-	[MP_Mn_ID] ASC
-)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
-) ON [PRIMARY]
-
-GO
+database數據庫信息見ever_code_cpp_MP15_Dfct_Rcrd.SCRIPT
