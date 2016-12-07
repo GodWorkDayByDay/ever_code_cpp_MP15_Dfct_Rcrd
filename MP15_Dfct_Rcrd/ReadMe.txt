@@ -5,7 +5,38 @@
 	A.ADO連接數據庫 
 	B.導出EXCEL
 	C.可編輯,行列自繪LIST控件
-	
+USE [MP15_Deffect_Record]
+GO
+
+/****** Object:  Table [dbo].[MP_Main_Tab]    Script Date: 12/06/2016 16:54:27 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[MP_Main_Tab](
+	[MP_Mn_Box_Numb] [nvarchar](50) NOT NULL,
+	[MP_Mn_SSN_Numb] [nvarchar](50) NULL,
+	[MP_Mn_Ipt_Time] [datetime] NOT NULL,
+	[MP_Mn_Ps_Time] [datetime] NULL,
+	[MP_Mn_Line] [nvarchar](50) NULL,
+	[MP_Mn_Dfct_Item_1] [nvarchar](50) NULL,
+	[MP_Mn_Dfct_item_2] [nvarchar](50) NULL,
+	[MP_Mn_Psser_Wrk_Numb] [nvarchar](50) NOT NULL,
+	[MP_Mn_Psser_Wrk_Name] [nvarchar](50) NOT NULL,
+	[MP_Mn_Extr] [nvarchar](50) NULL,
+	[MP_Mn_Reserve_1] [nvarchar](50) NULL,
+	[MP_Mn_Reserve_2] [nvarchar](50) NULL,
+	[MP_Mn_Reserve_3] [nvarchar](50) NULL,
+	[MP_Mn_ID] [int] IDENTITY(1,1) NOT NULL,
+ CONSTRAINT [PK__MP_Main___8F46DCB908EA5793] PRIMARY KEY CLUSTERED 
+(
+	[MP_Mn_ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO	
 應用程式精靈已經為您建立了這個 MP15_Dfct_Rcrd 應用程式。這個應用程式
 不僅示範了使用 MFC 的基本概念，也是您撰寫應用程式的起點。
 
